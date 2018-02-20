@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\Work\Goods\NewsrootApps\phimpme-android-development_0220\phimpme-android-development\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1a2f8b41d22c615a7f8e7f1b20488c1de2794ac4">
+        <dex dex="D:\Work\Goods\NewsrootApps\phimpme-android-development_0220\phimpme-android-development\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_8664d32fa48e40c581962909444c2ff79341e111\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Work\Goods\NewsrootApps\phimpme-android-development_0220\phimpme-android-development\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="D:\Work\Goods\NewsrootApps\phimpme-android-development_0220\phimpme-android-development\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_ffd69ea9cf0a9f7f949854a12e708c4a12191d86\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.box:box-android-sdk-4.0.8">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.box/box-android-sdk/4.0.8/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.box/box-android-sdk/4.0.8/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.box/box-android-sdk/4.0.8/136c6158d7cfac01cc22abdf060554a0cd0fd512/box-android-sdk-4.0.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

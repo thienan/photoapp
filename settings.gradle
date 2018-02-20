@@ -1,0 +1,2 @@
+include ':app', ':quantumphotoview', ':pdky'
+include ':openCVLibrary2018'
