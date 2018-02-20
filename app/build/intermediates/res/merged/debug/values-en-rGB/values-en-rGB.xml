@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="tw__time_hours">
+        <item quantity="one">1h</item>
+        <item quantity="other">%dh</item>
+    </plurals>
+    <plurals name="tw__time_mins">
+        <item quantity="one">1m</item>
+        <item quantity="other">%dm</item>
+    </plurals>
+    <plurals name="tw__time_secs">
+        <item quantity="one">1s</item>
+        <item quantity="other">%ds</item>
+    </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navigate home"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Navigate up"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"More options"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Done"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"See all"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Choose an app"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"OFF"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ON"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Search…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Clear query"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Search query"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Search"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Submit query"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Voice search"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Share with"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Share with %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Collapse"</string>
+    <string name="blocked_ip_error_message">You are attempting to log in to Box from a location that has not been approved by your admin. Please talk to your admin to resolve this issue.</string>
+    <string name="boxsdk_Authenticating">Authenticating</string>
+    <string name="boxsdk_Authentication_cancelled">Authentication cancelled</string>
+    <string name="boxsdk_Authentication_fail">Authentication failed</string>
+    <string name="boxsdk_Authentication_fail_forbidden">Contact your administrator to authorise this device.</string>
+    <string name="boxsdk_Authentication_fail_url_mismatch">The redirect URL is not valid</string>
+    <string name="boxsdk_Cancel">Cancel</string>
+    <string name="boxsdk_Continue">Continue</string>
+    <string name="boxsdk_Create_folder">Create folder</string>
+    <string name="boxsdk_Go_back">Go back</string>
+    <string name="boxsdk_Please_wait">Please wait…</string>
+    <string name="boxsdk_Security_Warning">Security Warning</string>
+    <string name="boxsdk_Select">Select</string>
+    <string name="boxsdk_Select_an_account_to_use">Select an account to use</string>
+    <string name="boxsdk_There_are_problems_with_the_security_certificate_for_this_site">There are problems with the security certificate for this site.</string>
+    <string name="boxsdk_Use_a_different_account">Use a different account</string>
+    <string description="" name="boxsdk_alert_dialog_cancel">Cancel</string>
+    <string description="" name="boxsdk_alert_dialog_ok">Submit</string>
+    <string description="" name="boxsdk_alert_dialog_password">Password</string>
+    <string description="" name="boxsdk_alert_dialog_text_entry">This website or application is requesting authentication.</string>
+    <string description="" name="boxsdk_alert_dialog_username">Username</string>
+    <string description="OK on buttons" name="boxsdk_button_ok">OK</string>
+    <string description="OK on buttons" name="boxsdk_button_okay">OK</string>
+    <string name="boxsdk_common_name">common name:</string>
+    <string name="boxsdk_details">Details</string>
+    <string name="boxsdk_error_fatal_refresh">You have been logged out.</string>
+    <string name="boxsdk_error_network_connection">Unable to detect a network connection</string>
+    <string name="boxsdk_error_terms_of_service">Your administrator has changed your TOS. You must log in and accept the TOS to continue.</string>
+    <string name="boxsdk_expires_on">expires on:</string>
+    <string name="boxsdk_fingerprints">fingerprints:</string>
+    <string name="boxsdk_issued_by">issued by:</string>
+    <string name="boxsdk_issued_on">issued on:</string>
+    <string name="boxsdk_issued_to">issued to:</string>
+    <string name="boxsdk_no_offline_access">No offline access</string>
+    <string name="boxsdk_no_offline_access_detail">We couldn\'t detect a network connection.</string>
+    <string name="boxsdk_no_offline_access_todo">To log in, connect to a Wi-Fi or mobile data network.</string>
+    <string name="boxsdk_org_name">organisation name:</string>
+    <string name="boxsdk_org_unit">organisation unit:</string>
+    <string name="boxsdk_screen_overlay_error_message">For your security, you must disable screen dimmers or brightness correction applications to continue.</string>
+    <string name="boxsdk_screen_overlay_error_title">Screen overlay detected</string>
+    <string name="boxsdk_serial_number">serial number:</string>
+    <string name="boxsdk_sha1_fingerprint">sha 1:</string>
+    <string name="boxsdk_sha256_fingerprint">sha 256:</string>
+    <string name="boxsdk_ssl_error_details">View details</string>
+    <string name="boxsdk_ssl_error_warning_DATE_INVALID">The date of the certificate is invalid.</string>
+    <string name="boxsdk_ssl_error_warning_EXPIRED">The certificate has expired.</string>
+    <string name="boxsdk_ssl_error_warning_ID_MISMATCH">Hostname mismatch.</string>
+    <string name="boxsdk_ssl_error_warning_INVALID">A generic error occurred.</string>
+    <string name="boxsdk_ssl_error_warning_NOT_YET_VALID">The certificate is not yet valid.</string>
+    <string name="boxsdk_ssl_error_warning_UNTRUSTED">The certificate authority is not trusted.</string>
+    <string name="boxsdk_ssl_should_not_proceed">You should not proceed, especially if you have never seen this warning before for this site.</string>
+    <string name="boxsdk_title_activity_oauth">OAuthActivity</string>
+    <string name="boxsdk_unable_to_connect">Unable to connect</string>
+    <string name="boxsdk_unable_to_connect_detail">We were unable to connect to your network.</string>
+    <string name="boxsdk_unable_to_connect_todo">Check your network connection and try again.</string>
+    <string name="boxsdk_validity_period">validity period:</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Enable"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> won\'t work unless you enable Google Play services."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Enable Google Play services"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Install"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your device."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Get Google Play services"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Google Play services error"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> is having trouble with Google Play services. Please try again."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> won\'t run without Google Play services, which are not supported by your device."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Update"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> won\'t run unless you update Google Play services."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Update Google Play services"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> won\'t run without Google Play services, which are currently updating."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"New version of Google Play services needed. It will update itself shortly."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Open on phone"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Sign In"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Sign in with Google"</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Search"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="tw__composer_hint">What\'s Happening?</string>
+    <string name="tw__like_tweet">Like Tweet</string>
+    <string name="tw__liked_tweet">Undo Like</string>
+    <string name="tw__loading_tweet">Loading Tweet</string>
+    <string name="tw__login_btn_txt">Log in with Twitter</string>
+    <string name="tw__max_tweet_chars">140</string>
+    <string name="tw__pause">pause</string>
+    <string name="tw__play">play</string>
+    <string name="tw__post_tweet">Tweet</string>
+    <string name="tw__relative_date_format_long">dd/MM/y</string>
+    <string name="tw__relative_date_format_short">d MMM</string>
+    <string name="tw__replay">replay</string>
+    <string name="tw__retweeted_by_format">Retweeted by %1$s</string>
+    <string name="tw__share_content_format">Check out \@%1$s\'s Tweet: https://twitter.com/%1$s/status/%2$s</string>
+    <string name="tw__share_subject_format">Tweet from %1$s (\@%2$s)</string>
+    <string name="tw__share_tweet">Share Tweet</string>
+    <string name="tw__tweet_content_description">%1$s. %2$s. %3$s.</string>
+    <string name="tw__tweet_media">Tweet Media</string>
+</resources>
