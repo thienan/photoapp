@@ -83,4 +83,5 @@ after_success:
   - 'if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then ./scripts/upload_apk.sh; fi'
 
 notifications:
-  slack: fossasia:JgzycrBUs0nKnmJhsAxCB4bL
+  email:
+  - nyhilacmlong@gmail.com

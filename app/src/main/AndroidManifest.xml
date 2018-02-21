@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.fossasia.phimpme"
+    package="org.quantum.silverphoto"
     android:versionCode="6"
     android:versionName="1.2.0">
 
@@ -16,7 +16,7 @@
     <uses-feature android:name="android.hardware.microphone" />
 
     <application
-        android:name=".MyApplication"
+        android:name="org.quantum.silverphoto.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -24,7 +24,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".share.twitter.LoginActivity"
+            android:name="org.quantum.silverphoto.share.twitter.LoginActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -53,7 +53,7 @@
         </activity>-->
 
         <activity
-            android:name=".opencamera.Camera.CameraActivity"
+            android:name="org.quantum.silverphoto.opencamera.Camera.CameraActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
@@ -78,7 +78,7 @@
         </activity>
 
         <activity
-            android:name=".opencamera.Camera.TakePhoto"
+            android:name="org.quantum.silverphoto.opencamera.Camera.TakePhoto"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:excludeFromRecents="true"
             android:icon="@drawable/ic_launcher_take_photo"
@@ -87,7 +87,7 @@
             android:taskAffinity="" />
         <!-- should not change the android:name, including moving to a subpackage - see http://android-developers.blogspot.co.uk/2011/06/things-that-cannot-change.html -->
         <receiver
-            android:name=".opencamera.Camera.MyWidgetProvider"
+            android:name="org.quantum.silverphoto.opencamera.Camera.MyWidgetProvider"
             android:icon="@drawable/ic_launcher_vector"
             android:label="@string/app_name">
             <intent-filter>
@@ -104,7 +104,7 @@
         </receiver>
         <!-- should not change the android:name, including moving to a subpackage - see http://android-developers.blogspot.co.uk/2011/06/things-that-cannot-change.html -->
         <receiver
-            android:name=".opencamera.Camera.MyWidgetProviderTakePhoto"
+            android:name="org.quantum.silverphoto.opencamera.Camera.MyWidgetProviderTakePhoto"
             android:icon="@drawable/ic_launcher_take_photo"
             android:label="@string/take_photo">
             <intent-filter>
@@ -117,7 +117,7 @@
         </receiver>
         <!-- should not change the android:name, including moving to a subpackage - see http://android-developers.blogspot.co.uk/2011/06/things-that-cannot-change.html -->
         <service
-            android:name=".opencamera.Camera.MyTileService"
+            android:name="org.quantum.silverphoto.opencamera.Camera.MyTileService"
             android:icon="@drawable/ic_photo_camera_white_48dp"
             android:label="@string/camera"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
@@ -127,7 +127,7 @@
         </service>
         <!-- should not change the android:name, including moving to a subpackage - see http://android-developers.blogspot.co.uk/2011/06/things-that-cannot-change.html -->
         <service
-            android:name=".opencamera.Camera.MyTileServiceVideo"
+            android:name="org.quantum.silverphoto.opencamera.Camera.MyTileServiceVideo"
             android:icon="@drawable/ic_videocam_white_48dp"
             android:label="@string/record_video"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
@@ -137,7 +137,7 @@
         </service>
         <!-- should not change the android:name, including moving to a subpackage - see http://android-developers.blogspot.co.uk/2011/06/things-that-cannot-change.html -->
         <service
-            android:name=".opencamera.Camera.MyTileServiceFrontCamera"
+            android:name="org.quantum.silverphoto.opencamera.Camera.MyTileServiceFrontCamera"
             android:icon="@drawable/ic_face_white_48dp"
             android:label="@string/selfie"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
@@ -147,7 +147,7 @@
         </service>
 
         <activity
-            android:name=".gallery.activities.SplashScreen"
+            android:name="org.quantum.silverphoto.gallery.activities.SplashScreen"
             android:configChanges="orientation|screenSize"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
@@ -182,7 +182,7 @@
                 android:resource="@xml/shortcuts" />
         </activity>
         <activity
-            android:name=".gallery.activities.LFMainActivity"
+            android:name="org.quantum.silverphoto.gallery.activities.LFMainActivity"
             android:configChanges="orientation|screenSize"
             android:theme="@style/Theme.AppCompat.NoActionBar"
             android:windowSoftInputMode="adjustPan">
@@ -193,10 +193,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".gallery.activities.SingleMediaActivity"
+            android:name="org.quantum.silverphoto.gallery.activities.SingleMediaActivity"
             android:configChanges="orientation|screenSize|uiMode|touchscreen|screenLayout"
             android:label="@string/app_name"
-            android:parentActivityName=".gallery.activities.LFMainActivity"
+            android:parentActivityName="org.quantum.silverphoto.gallery.activities.LFMainActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
@@ -204,7 +204,7 @@
             </intent-filter>
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.fossasia.phimpme.gallery.activities.LFMainActivity" />
+                android:value="org.quantum.silverphoto.gallery.activities.LFMainActivity" />
 
             <intent-filter>
                 <action android:name="android.intent.action.albumPhoto" />
@@ -235,7 +235,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".gallery.activities.SettingsActivity"
+            android:name="org.quantum.silverphoto.gallery.activities.SettingsActivity"
             android:configChanges="orientation|screenSize"
             android:label="@string/settings"
             android:theme="@style/Theme.AppCompat.NoActionBar">
@@ -251,7 +251,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".gallery.activities.AboutActivity"
+            android:name="org.quantum.silverphoto.gallery.activities.AboutActivity"
             android:configChanges="orientation|screenSize"
             android:label="@string/about"
             android:theme="@style/Theme.AppCompat.NoActionBar">
@@ -262,7 +262,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".gallery.activities.SecurityActivity"
+            android:name="org.quantum.silverphoto.gallery.activities.SecurityActivity"
             android:configChanges="orientation|screenSize"
             android:label="@string/security"
             android:theme="@style/Theme.AppCompat.NoActionBar">
@@ -273,7 +273,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".gallery.activities.ExcludedAlbumsActivity"
+            android:name="org.quantum.silverphoto.gallery.activities.ExcludedAlbumsActivity"
             android:label="@string/excluded_albums"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
@@ -283,7 +283,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".editor.EditImageActivity"
+            android:name="org.quantum.silverphoto.editor.EditImageActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustPan" />
@@ -292,16 +292,16 @@
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
-            android:name=".opencamera.Camera.PhotoActivity"
+            android:name="org.quantum.silverphoto.opencamera.Camera.PhotoActivity"
             android:label="Preview"
             android:theme="@style/AppTheme.NoActionBar" />
 
-        <activity android:name=".uploadhistory.UploadHistory"
+        <activity android:name="org.quantum.silverphoto.uploadhistory.UploadHistory"
                   android:label="Upload History"
                   android:theme="@style/AppTheme.NoActionBar" />
 
         <meta-data
-            android:name="org.fossasia.phimpme.gallery.CustomGlideModule"
+            android:name="org.quantum.silverphoto.gallery.CustomGlideModule"
             android:value="GlideModule" />
 
         <provider
@@ -319,7 +319,7 @@
             android:exported="true" />
 
         <activity
-            android:name=".share.SharingActivity"
+            android:name="org.quantum.silverphoto.share.SharingActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustNothing"
@@ -333,7 +333,7 @@
             android:value="@string/facebook_app_id" />
 
         <activity
-            android:name=".accounts.AccountActivity"
+            android:name="org.quantum.silverphoto.accounts.AccountActivity"
             android:screenOrientation="portrait"
             android:launchMode="singleTask"
             android:theme="@style/Theme.AppCompat.NoActionBar">
@@ -349,17 +349,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".share.drupal.DrupalLogin"
+            android:name="org.quantum.silverphoto.share.drupal.DrupalLogin"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
-            android:name=".share.wordpress.WordpressLoginActivity"
+            android:name="org.quantum.silverphoto.share.wordpress.WordpressLoginActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar"/>
 
-        <activity android:name=".share.nextcloud.NextCloudAuth"
+        <activity android:name="org.quantum.silverphoto.share.nextcloud.NextCloudAuth"
             android:theme="@style/AppTheme.NoActionBar"/>
 
         <activity
-            android:name=".share.flickr.FlickrActivity"
+            android:name="org.quantum.silverphoto.share.flickr.FlickrActivity"
             android:label="@string/app_name"
             android:theme="@style/Theme.AppCompat.NoActionBar"
             android:launchMode="singleTask" >
@@ -370,11 +370,11 @@
                 <data android:scheme="flickrj-android-sample-oauth" />
             </intent-filter>
         </activity>
-        <activity android:name=".share.imgur.ImgurAuthActivity"
+        <activity android:name="org.quantum.silverphoto.share.imgur.ImgurAuthActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
 
         <activity
-            android:name=".share.owncloud.OwnCloudActivity"
+            android:name="org.quantum.silverphoto.share.owncloud.OwnCloudActivity"
             android:label="@string/title_activity_own_cloud"
             android:theme="@style/AppTheme.NoActionBar"/>
         <meta-data

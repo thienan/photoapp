@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="D:\Work\Goods\NewsrootApps\phimpme-android-development_0220\phimpme-android-development\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="1a2f8b41d22c615a7f8e7f1b20488c1de2794ac4">
-        <dex dex="D:\Work\Goods\NewsrootApps\phimpme-android-development_0220\phimpme-android-development\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_8664d32fa48e40c581962909444c2ff79341e111\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Work\Goods\NewsrootApps\phimpme-android-development_0220\phimpme-android-development\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="D:\Work\git\photoapp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="D:\Work\Goods\NewsrootApps\phimpme-android-development_0220\phimpme-android-development\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_ffd69ea9cf0a9f7f949854a12e708c4a12191d86\classes.dex" />
+        <dex dex="D:\Work\git\photoapp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_69777b8d606c94188d0ae7f9b08bde209c6e8b62\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Work\git\photoapp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="efd448d2bb9b8a713854c7c5071bc3ae91bd3bc0">
+        <dex dex="D:\Work\git\photoapp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_900e66283e0eea38ffeaca2b41d319ee705b96e9\classes.dex" />
     </item>
 
 </items>

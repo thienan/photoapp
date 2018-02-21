@@ -1,12 +1,12 @@
 metadata:
-  author: FOSSASIA
-  projectname: Phimp.me
+  author: SilverLive Quantum
+  projectname: QuantumPhotoEditor
   version: development
 build:
   theme:
-    name: sphinx_fossasia_theme
+    name: yndroid_silverlive_theme
   source: docs
 publish:
   ghpages:
-    url: phimp.me
+    url: silverlive.quantum
 
