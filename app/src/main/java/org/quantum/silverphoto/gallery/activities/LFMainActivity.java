@@ -185,12 +185,12 @@ public class LFMainActivity extends SharedMediaActivity {
     @BindView(R.id.fab_scroll_up) FloatingActionButton fabScrollUp;
     @BindView(R.id.Drawer_Setting_Item) TextView drawerSettingText;
     @BindView(R.id.Drawer_About_Item) TextView drawerAboutText;
-    @BindView(R.id.Drawer_share_Item) TextView drawerShareText;
+//    @BindView(R.id.Drawer_share_Item) TextView drawerShareText;
     @BindView(R.id.Drawer_rate_Item) TextView drawerRateText;
     @BindView(R.id.Drawer_Upload_Item) TextView drawerUploadText;
     @BindView(R.id.Drawer_Setting_Icon) IconicsImageView drawerSettingIcon;
     @BindView(R.id.Drawer_About_Icon) IconicsImageView drawerAboutIcon;
-    @BindView(R.id.Drawer_share_Icon) IconicsImageView drawerShareIcon;
+//    @BindView(R.id.Drawer_share_Icon) IconicsImageView drawerShareIcon;
     @BindView(R.id.Drawer_rate_Icon) IconicsImageView drawerRateIcon;
     @BindView(R.id.Drawer_Upload_Icon) IconicsImageView drawerUploadIcon;
     @BindView(R.id.drawer_scrollbar) ScrollView scrollView;
@@ -1158,7 +1158,7 @@ public class LFMainActivity extends SharedMediaActivity {
         drawerSettingText.setTextColor(color);
         drawerAboutText.setTextColor(color);
         hiddenText.setTextColor(color);
-        drawerShareText.setTextColor(color);
+//        drawerShareText.setTextColor(color);
         drawerRateText.setTextColor(color);
         drawerUploadText.setTextColor(color);
         ((TextView) findViewById(R.id.Drawer_Default_Item)).setTextColor(color);
@@ -1166,7 +1166,7 @@ public class LFMainActivity extends SharedMediaActivity {
 
         ((TextView) findViewById(R.id.Drawer_About_Item)).setTextColor(color);
         ((TextView) findViewById(R.id.Drawer_hidden_Item)).setTextColor(color);
-        ((TextView) findViewById(R.id.Drawer_share_Item)).setTextColor(color);
+//        ((TextView) findViewById(R.id.Drawer_share_Item)).setTextColor(color);
         ((TextView) findViewById(R.id.Drawer_rate_Item)).setTextColor(color);
         ((TextView) findViewById(R.id.Drawer_Upload_Item)).setTextColor(color);
         ((TextView) findViewById(R.id.Drawer_favourite_Item)).setTextColor(color);
@@ -1177,7 +1177,7 @@ public class LFMainActivity extends SharedMediaActivity {
         drawerSettingIcon.setColor(color);
         drawerAboutIcon.setColor(color);
         hiddenIcon.setColor(color);
-        drawerShareIcon.setColor(color);
+//        drawerShareIcon.setColor(color);
         drawerRateIcon.setColor(color);
         drawerUploadIcon.setColor(color);
         favicon.setColor(color);
@@ -1280,13 +1280,13 @@ public class LFMainActivity extends SharedMediaActivity {
             }
         });
 
-        findViewById(R.id.ll_share_phimpme).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                onInviteClicked();
-                mDrawerLayout.closeDrawer(GravityCompat.START);
-            }
-        });
+//        findViewById(R.id.ll_share_phimpme).setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                onInviteClicked();
+//                mDrawerLayout.closeDrawer(GravityCompat.START);
+//            }
+//        });
         findViewById(R.id.ll_rate_phimpme).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
