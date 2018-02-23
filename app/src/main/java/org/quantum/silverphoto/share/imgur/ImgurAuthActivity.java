@@ -27,7 +27,7 @@ import static org.quantum.silverphoto.utilities.Constants.IMGUR_LOGIN_URL;
  */
 
 public class ImgurAuthActivity extends ThemedActivity {
-    private static final String REDIRECT_URL = "https://org.fossasia.phimpme";
+    private static final String REDIRECT_URL = "https://org.quantum.silverlive";
     static BasicCallBack imgurCallBack;
     @BindView(R.id.login_parent)
     View parent;

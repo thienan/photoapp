@@ -85,10 +85,10 @@ public class AboutActivity extends ThemedActivity {
         /**** Title Cards ***/
         int color=getAccentColor();
         ((TextView) findViewById(R.id.about_app_title)).setTextColor(color);
-        ((TextView) findViewById(R.id.about_special_thanks_title)).setTextColor(color);
-        ((TextView) findViewById(R.id.about_support_title)).setTextColor(color);
-        ((TextView) findViewById(R.id.about_license_title)).setTextColor(color);
-        ((TextView) findViewById(R.id.about_special_thanks_title)).setTextColor(color);
+//        ((TextView) findViewById(R.id.about_special_thanks_title)).setTextColor(color);
+//        ((TextView) findViewById(R.id.about_support_title)).setTextColor(color);
+//        ((TextView) findViewById(R.id.about_license_title)).setTextColor(color);
+//        ((TextView) findViewById(R.id.about_special_thanks_title)).setTextColor(color);
 
         /***** LeafPic Header *****/
         /*
@@ -124,47 +124,47 @@ public class AboutActivity extends ThemedActivity {
             }
         });
         //GitHub
-        findViewById(R.id.ll_about_support_github).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                cts.launchUrl(getApplicationContext().getString(R.string.phimpme_github));
-            }
-        });
+//        findViewById(R.id.ll_about_support_github).setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                cts.launchUrl(getApplicationContext().getString(R.string.phimpme_github));
+//            }
+//        });
         ///Report bug
-        findViewById(R.id.ll_about_report_bug).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                cts.launchUrl(getApplicationContext().getString(R.string.phimpme_github_issues));
-            }
-        });
+//        findViewById(R.id.ll_about_report_bug).setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                cts.launchUrl(getApplicationContext().getString(R.string.phimpme_github_issues));
+//            }
+//        });
          //openCamera
-        findViewById(R.id.about_patryk_goworowski_item_sub).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                cts.launchUrl(getApplicationContext().getString(R.string.opencamera_sourceforge));
-            }
-        });
+//        findViewById(R.id.about_patryk_goworowski_item_sub).setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                cts.launchUrl(getApplicationContext().getString(R.string.opencamera_sourceforge));
+//            }
+//        });
         //LeafPic
-        findViewById(R.id.about_community_members_sub).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                cts.launchUrl(getApplicationContext().getString(R.string.leafpic_github));
-            }
-        });
+//        findViewById(R.id.about_community_members_sub).setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                cts.launchUrl(getApplicationContext().getString(R.string.leafpic_github));
+//            }
+//        });
         
         //License
-        findViewById(R.id.ll_about_license).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                cts.launchUrl(getApplicationContext().getString(R.string.phimpme_license));
-            }
-        });
+//        findViewById(R.id.ll_about_license).setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                cts.launchUrl(getApplicationContext().getString(R.string.phimpme_license));
+//            }
+//        });
 
         //Libs
-        findViewById(R.id.ll_about_libs).setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v) {licenseDialog();}
-        });
+//        findViewById(R.id.ll_about_libs).setOnClickListener(new View.OnClickListener(){
+//            @Override
+//            public void onClick(View v) {licenseDialog();}
+//        });
 
     }
 
@@ -176,40 +176,40 @@ public class AboutActivity extends ThemedActivity {
         /** Cards **/
         int color = getCardBackgroundColor();
         ((CardView) findViewById(R.id.about_app_card)).setCardBackgroundColor(color);
-        ((CardView) findViewById(R.id.about_special_thanks_card)).setCardBackgroundColor(color);
-        ((CardView) findViewById(R.id.about_support_card)).setCardBackgroundColor(color);
-        ((CardView) findViewById(R.id.about_license_card)).setCardBackgroundColor(color);
+//        ((CardView) findViewById(R.id.about_special_thanks_card)).setCardBackgroundColor(color);
+//        ((CardView) findViewById(R.id.about_support_card)).setCardBackgroundColor(color);
+//        ((CardView) findViewById(R.id.about_license_card)).setCardBackgroundColor(color);
         //cvSpecialThanks.setBackgroundColor(color);
 
         /** Icons **/
         //ABOUT APP
         color = getIconColor();
-        ((IconicsImageView) findViewById(R.id.about_libs_icon)).setColor(color);
-        ((IconicsImageView) findViewById(R.id.about_license_icon)).setColor(color);
+//        ((IconicsImageView) findViewById(R.id.about_libs_icon)).setColor(color);
+//        ((IconicsImageView) findViewById(R.id.about_license_icon)).setColor(color);
 
         //ABOUT SUPPORT
-        ((IconicsImageView) findViewById(R.id.about_support_github_icon)).setColor(color);
-        ((IconicsImageView) findViewById(R.id.about_support_report_bug_icon)).setColor(color);
+//        ((IconicsImageView) findViewById(R.id.about_support_github_icon)).setColor(color);
+//        ((IconicsImageView) findViewById(R.id.about_support_report_bug_icon)).setColor(color);
 
         /** TextViews **/
         color = getTextColor();
-        ((TextView) findViewById(R.id.about_libs_item)).setTextColor(color);
+//        ((TextView) findViewById(R.id.about_libs_item)).setTextColor(color);
         ((TextView) findViewById(R.id.about_app_light_description)).setTextColor(color);
-        ((TextView) findViewById(R.id.about_support_github_item)).setTextColor(color);
-        ((TextView) findViewById(R.id.about_license_item)).setTextColor(color);
-        ((TextView) findViewById(R.id.about_support_report_bug_item)).setTextColor(color);
+//        ((TextView) findViewById(R.id.about_support_github_item)).setTextColor(color);
+//        ((TextView) findViewById(R.id.about_license_item)).setTextColor(color);
+//        ((TextView) findViewById(R.id.about_support_report_bug_item)).setTextColor(color);
 
         /** Sub Text Views**/
         color = getSubTextColor();
         ((TextView) findViewById(R.id.about_version_item_sub)).setTextColor(color);
         ((TextView) findViewById(R.id.about_version_item_sub)).setText(getApplicationContext().getString(R.string.version_title)+" "+BuildConfig.VERSION_NAME);
-        ((TextView) findViewById(R.id.about_libs_item_sub)).setTextColor(color);
-        ((TextView) findViewById(R.id.about_patryk_goworowski_item_sub)).setTextColor(color);
-        ((TextView) findViewById(R.id.about_community_members_sub)).setTextColor(color);
-        ((TextView) findViewById(R.id.about_community_you_sub)).setTextColor(color);
-        ((TextView) findViewById(R.id.about_support_github_item_sub)).setTextColor(color);
-        ((TextView) findViewById(R.id.about_license_item_sub)).setTextColor(color);
-        ((TextView) findViewById(R.id.about_support_report_bug_sub)).setTextColor(color);
+//        ((TextView) findViewById(R.id.about_libs_item_sub)).setTextColor(color);
+//        ((TextView) findViewById(R.id.about_patryk_goworowski_item_sub)).setTextColor(color);
+//        ((TextView) findViewById(R.id.about_community_members_sub)).setTextColor(color);
+//        ((TextView) findViewById(R.id.about_community_you_sub)).setTextColor(color);
+//        ((TextView) findViewById(R.id.about_support_github_item_sub)).setTextColor(color);
+//        ((TextView) findViewById(R.id.about_license_item_sub)).setTextColor(color);
+//        ((TextView) findViewById(R.id.about_support_report_bug_sub)).setTextColor(color);
     }
 
     private void licenseDialog() {

@@ -795,7 +795,7 @@
         (TESTING) It allows you to have a better zoom management and a clear image but it isn\'t really optimized right now.
     </string>
     <string name="about_support">Support Development</string>
-    <string name="about_fossasia">Developed by <a href="http://fossasia.org/"> FOSSASIA</a> <a href="https://github.com/fossasia/phimpme-android/graphs/contributors">contributors</a>.</string>
+    <string name="about_fossasia">Developed by SilverLive Team.</string>
     <string name="title_activity_accounts">AccountsActivity</string>
 
     <!--EDITING IMAGE-->
