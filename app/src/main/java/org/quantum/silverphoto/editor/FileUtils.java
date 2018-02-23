@@ -17,7 +17,7 @@ import java.io.IOException;
  * 
  */
 public class FileUtils {
-	public static final String FOLDER_NAME = "phimpme-edit";
+	public static final String FOLDER_NAME = "silverphoto-edit";
 
 	/**
 	 *Get storage file folder path
@@ -44,7 +44,7 @@ public class FileUtils {
 	}
 
 	public static File genEditFile(String extension){
-		return FileUtils.getEmptyFile("phimpme"
+		return FileUtils.getEmptyFile("silverphoto"
 				+ System.currentTimeMillis() + extension);
 	}
 

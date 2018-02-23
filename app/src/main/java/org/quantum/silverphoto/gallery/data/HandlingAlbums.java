@@ -299,7 +299,7 @@ public class HandlingAlbums {
     Album camera = null;
 
     for(Album album : dispAlbums)
-      if (album.getName().equals("Phimpme Camera") && dispAlbums.remove(album)) {
+      if (album.getName().equals("SilverPhoto Camera") && dispAlbums.remove(album)) {
         camera = album;
         break;
       }

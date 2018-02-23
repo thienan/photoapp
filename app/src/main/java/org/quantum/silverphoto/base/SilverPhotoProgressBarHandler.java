@@ -12,10 +12,10 @@ import android.widget.RelativeLayout;
  * Created by pa1pal on 12/6/17.
  */
 
-public class PhimpmeProgressBarHandler {
+public class SilverPhotoProgressBarHandler {
     private ProgressBar mProgressBar;
 
-    public PhimpmeProgressBarHandler(Context context) {
+    public SilverPhotoProgressBarHandler(Context context) {
         ViewGroup layout = (ViewGroup) ((Activity) context).findViewById(android.R.id.content)
                 .getRootView();
 

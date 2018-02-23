@@ -43,7 +43,7 @@ import com.tumblr.loglr.Loglr;
 import com.twitter.sdk.android.core.identity.TwitterAuthClient;
 
 import org.quantum.silverphoto.R;
-import org.quantum.silverphoto.base.PhimpmeProgressBarHandler;
+import org.quantum.silverphoto.base.SilverPhotoProgressBarHandler;
 import org.quantum.silverphoto.base.RecyclerItemClickListner;
 import org.quantum.silverphoto.base.ThemedActivity;
 import org.quantum.silverphoto.data.local.AccountDatabase;
@@ -118,7 +118,7 @@ public class AccountActivity extends ThemedActivity implements AccountContract.V
     private AccountPresenter accountPresenter;
     private Realm realm = Realm.getDefaultInstance();
     private RealmQuery<AccountDatabase> realmResult;
-    private PhimpmeProgressBarHandler phimpmeProgressBarHandler;
+    private SilverPhotoProgressBarHandler silverphotoProgressBarHandler;
     private TwitterAuthClient client;
     private CallbackManager callbackManager;
     private LoginManager loginManager;
@@ -141,7 +141,7 @@ public class AccountActivity extends ThemedActivity implements AccountContract.V
                                R.anim.left_to_right);parentLayout.setBackgroundColor(getBackgroundColor());
         accountAdapter = new AccountAdapter();
         accountPresenter = new AccountPresenter(realm);
-        phimpmeProgressBarHandler = new PhimpmeProgressBarHandler(this);
+        silverphotoProgressBarHandler = new SilverPhotoProgressBarHandler(this);
         accountPresenter.attachView(this);
         databaseHelper = new DatabaseHelper(realm);
         client = new TwitterAuthClient();
@@ -153,7 +153,7 @@ public class AccountActivity extends ThemedActivity implements AccountContract.V
         setUpRecyclerView();
         accountPresenter.loadFromDatabase();  // Calling presenter function to load data from database
         getSupportActionBar().setTitle(R.string.title_account);
-        phimpmeProgressBarHandler.show();
+        silverphotoProgressBarHandler.show();
         cloudRailServices=CloudRailServices.getInstance();
         pdkyClient = PDKYClient.configureInstance(this, PINTEREST_APP_ID);
         pdkyClient.onConnect(this);
@@ -219,7 +219,7 @@ public class AccountActivity extends ThemedActivity implements AccountContract.V
 
     @Override
     public void showComplete() {
-        phimpmeProgressBarHandler.hide();
+        silverphotoProgressBarHandler.hide();
     }
 
     @Override

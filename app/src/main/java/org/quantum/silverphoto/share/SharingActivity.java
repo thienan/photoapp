@@ -78,7 +78,7 @@ import com.tumblr.jumblr.types.User;
 
 import org.quantum.silverphoto.R;
 import org.quantum.silverphoto.accounts.CloudRailServices;
-import org.quantum.silverphoto.base.PhimpmeProgressBarHandler;
+import org.quantum.silverphoto.base.SilverPhotoProgressBarHandler;
 import org.quantum.silverphoto.base.RecyclerItemClickListner;
 import org.quantum.silverphoto.base.ThemedActivity;
 import org.quantum.silverphoto.data.local.AccountDatabase;
@@ -196,7 +196,7 @@ public class SharingActivity extends ThemedActivity implements View.OnClickListe
 
     private Realm realm = Realm.getDefaultInstance();
     private String caption;
-    private PhimpmeProgressBarHandler phimpmeProgressBarHandler;
+    private SilverPhotoProgressBarHandler silverphotoProgressBarHandler;
     private Context context;
     private BoxSession sessionBox;
     private ArrayList<AccountDatabase.AccountName> sharableAccountsList = new ArrayList<>();
@@ -230,7 +230,7 @@ public class SharingActivity extends ThemedActivity implements View.OnClickListe
         themeHelper = new ThemeHelper(this);
         mHandler = new Handler();
         sharableAccountsList = Utils.getSharableAccountsList();
-        phimpmeProgressBarHandler = new PhimpmeProgressBarHandler(this);
+        silverphotoProgressBarHandler = new SilverPhotoProgressBarHandler(this);
         ActivitySwitchHelper.setContext(this);
         ButterKnife.bind(this);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
@@ -1236,7 +1236,7 @@ public class SharingActivity extends ThemedActivity implements View.OnClickListe
             UploadRemoteFileOperation uploadOperation =
                     new UploadRemoteFileOperation(fileToUpload.getAbsolutePath(), remotePath, mimeType, timeStamp);
             uploadOperation.execute(mClient, this, mHandler);
-            phimpmeProgressBarHandler.show();
+            silverphotoProgressBarHandler.show();
 
         } else {
             SnackBarHandler.show(parent, context.getString(R.string.please_sign_into)
@@ -1302,7 +1302,7 @@ public class SharingActivity extends ThemedActivity implements View.OnClickListe
      */
     @Override
     public void onRemoteOperationFinish(RemoteOperation operation, RemoteOperationResult result) {
-        phimpmeProgressBarHandler.hide();
+        silverphotoProgressBarHandler.hide();
         if (!result.isSuccess()) {
             Snackbar.make(parent, R.string.login_again, Snackbar.LENGTH_LONG)
                     .setAction(R.string.exit, new View.OnClickListener() {
