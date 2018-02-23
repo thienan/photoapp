@@ -1127,7 +1127,7 @@
     <string name="appintro">AppIntro</string>
     <string name="ucrop">uCrop</string>
     <string name="shiftcolorpicker">ShiftColorPicker</string>
-    <string name="quantumphotoview">quantumphotoview</string>
+    <string name="quantumphotoview">QuantumPhotoView</string>
     <string name="circleimageview">CircleImageView</string>
     <string name="horizontalwheelview">HorizontalWheelView</string>
 

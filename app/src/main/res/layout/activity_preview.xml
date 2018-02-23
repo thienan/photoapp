@@ -13,7 +13,7 @@
         android:background="@color/md_dark_appbar"
         android:windowActionBarOverlay="true" />
 
-    <uk.co.senab.quantumphotoview.quantumphotoview
+    <uk.co.senab.quantumphotoview.QuantumPhotoView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

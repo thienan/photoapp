@@ -17,7 +17,7 @@ import java.util.Map;
 
 public class Utils {
 
-    private static final String TAG = "pdky";
+    private static final String TAG = "PDKY";
     private static DateFormat _dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
 
     public static <T> boolean isEmpty(Collection<T> c) {
