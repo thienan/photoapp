@@ -705,15 +705,15 @@ public class SingleMediaActivity extends SharedMediaActivity implements ImageAda
                 bottomSheetDialogFragment.show(getSupportFragmentManager(), bottomSheetDialogFragment.getTag());
                 break;
 
-            case R.id.action_share:
-                handler.removeCallbacks(slideShowRunnable);
-                Intent share = new Intent(SingleMediaActivity.this, SharingActivity.class);
-                if (!allPhotoMode)
-                    share.putExtra(EXTRA_OUTPUT, getAlbum().getCurrentMedia().getPath());
-                else
-                    share.putExtra(EXTRA_OUTPUT, listAll.get(current_image_pos).getPath());
-                startActivity(share);
-                return true;
+//            case R.id.action_share:
+//                handler.removeCallbacks(slideShowRunnable);
+//                Intent share = new Intent(SingleMediaActivity.this, SharingActivity.class);
+//                if (!allPhotoMode)
+//                    share.putExtra(EXTRA_OUTPUT, getAlbum().getCurrentMedia().getPath());
+//                else
+//                    share.putExtra(EXTRA_OUTPUT, listAll.get(current_image_pos).getPath());
+//                startActivity(share);
+//                return true;
 
             case R.id.action_edit:
                 handler.removeCallbacks(slideShowRunnable);
