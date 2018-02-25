@@ -56,7 +56,7 @@ public abstract class BaseActivity extends AppCompatActivity implements BottomNa
 
          nav_home = (BottomNavigationItemView) findViewById(R.id.navigation_home);
          nav_cam = (BottomNavigationItemView) findViewById(R.id.navigation_camera);
-         nav_acc = (BottomNavigationItemView) findViewById(R.id.navigation_accounts);
+//         nav_acc = (BottomNavigationItemView) findViewById(R.id.navigation_accounts);
 
         int checkStoragePermission = ContextCompat.checkSelfPermission(this, android.Manifest.permission.WRITE_EXTERNAL_STORAGE);
         if(checkStoragePermission  == PackageManager.PERMISSION_GRANTED)
@@ -90,14 +90,14 @@ public abstract class BaseActivity extends AppCompatActivity implements BottomNa
                         .build()
         );
 
-        sequence.addSequenceItem(
-                new MaterialShowcaseView.Builder(this)
-                        .setTarget(nav_acc)
-                        .setDismissText(getResources().getString(R.string.ok_button))
-                        .setContentText(getResources().getString(R.string.accounts_button))
-                        .setDismissOnTouch(true)
-                        .build()
-        );
+//        sequence.addSequenceItem(
+//                new MaterialShowcaseView.Builder(this)
+//                        .setTarget(nav_acc)
+//                        .setDismissText(getResources().getString(R.string.ok_button))
+//                        .setContentText(getResources().getString(R.string.accounts_button))
+//                        .setDismissOnTouch(true)
+//                        .build()
+//        );
 
         sequence.start();
     }
@@ -126,9 +126,9 @@ public abstract class BaseActivity extends AppCompatActivity implements BottomNa
                 case R.id.navigation_home:
                     startActivity(new Intent(this, LFMainActivity.class));
                     break;
-                case R.id.navigation_accounts:
-                    startActivity(new Intent(this, AccountActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
-                    break;
+//                case R.id.navigation_accounts:
+//                    startActivity(new Intent(this, AccountActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
+//                    break;
             }
         }
         return true;

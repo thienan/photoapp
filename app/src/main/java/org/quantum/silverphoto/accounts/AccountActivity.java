@@ -229,7 +229,8 @@ public class AccountActivity extends ThemedActivity implements AccountContract.V
 
     @Override
     public int getNavigationMenuItemId() {
-        return R.id.navigation_accounts;
+//        return R.id.navigation_accounts;
+        return R.id.navigation_home;
     }
 
     @Override
