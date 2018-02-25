@@ -70,7 +70,7 @@ public class MyApplication extends Application {
          */
         Realm.init(this);
         RealmConfiguration realmConfiguration = new RealmConfiguration.Builder()
-                .name("phimpme.realm")
+                .name("silverphoto.realm")
                 .schemaVersion(1)
                 .deleteRealmIfMigrationNeeded()
                 .build();
