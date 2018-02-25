@@ -6,6 +6,7 @@ import android.content.pm.PackageManager;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.annotation.NonNull;
 import android.support.v4.content.ContextCompat;
 import android.util.Log;
@@ -94,7 +95,21 @@ public class SplashScreen extends SharedMediaActivity {
                 }
             });
         }
-        logoView.setImageDrawable(gifDrawable);
+//        logoView.setImageDrawable(gifDrawable);
+        logoView.setImageResource(R.drawable.ic_launcher_splash_2);
+
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                if (can_be_finished && nextIntent != null){
+                    startActivity(nextIntent);
+                    finish();
+                }else {
+                    can_be_finished = true;
+                }
+            }
+        }, 4000);
 
         if (PermissionUtils.isDeviceInfoGranted(this)) {
             PICK_INTENT = getIntent().getAction().equals(Intent.ACTION_GET_CONTENT) || getIntent().getAction().equals(Intent.ACTION_PICK);
