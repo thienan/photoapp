@@ -795,15 +795,29 @@ public class EditImageActivity extends EditBaseActivity implements View.OnClickL
      */
     private  void imageSavedDialog(final String path){
 
+//        final AlertDialog.Builder imageSavedDialogBuilder = new AlertDialog.Builder(EditImageActivity.this, getDialogStyle());
+//        AlertDialogsHelper.getTextDialog(EditImageActivity.this, imageSavedDialogBuilder, R.string.image_saved, R.string.share_image, null);
+//        imageSavedDialogBuilder.setPositiveButton(getString(R.string.share).toUpperCase(), new DialogInterface.OnClickListener() {
+//            @Override
+//            public void onClick(DialogInterface dialog, int which) {
+//                shareImage(path);
+//            }
+//        });
+//        imageSavedDialogBuilder.setNegativeButton(getString(R.string.cancel).toUpperCase(), new DialogInterface.OnClickListener() {
+//            @Override
+//            public void onClick(DialogInterface dialog, int which) {
+//                if(dialog != null)
+//                    onBackPressed();
+//
+//            }
+//        });
+//
+//        AlertDialog alertDialog = imageSavedDialogBuilder.create();
+//        alertDialog.show();
+//        AlertDialogsHelper.setButtonTextColor(new int[]{DialogInterface.BUTTON_POSITIVE, DialogInterface.BUTTON_NEGATIVE}, getAccentColor(), alertDialog);
         final AlertDialog.Builder imageSavedDialogBuilder = new AlertDialog.Builder(EditImageActivity.this, getDialogStyle());
-        AlertDialogsHelper.getTextDialog(EditImageActivity.this, imageSavedDialogBuilder, R.string.image_saved, R.string.share_image, null);
-        imageSavedDialogBuilder.setPositiveButton(getString(R.string.share).toUpperCase(), new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                shareImage(path);
-            }
-        });
-        imageSavedDialogBuilder.setNegativeButton(getString(R.string.cancel).toUpperCase(), new DialogInterface.OnClickListener() {
+        AlertDialogsHelper.getTextDialog(EditImageActivity.this, imageSavedDialogBuilder, R.string.image_saved, R.string.saved_image, null);
+        imageSavedDialogBuilder.setNegativeButton("Ok".toUpperCase(), new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 if(dialog != null)
@@ -815,5 +829,6 @@ public class EditImageActivity extends EditBaseActivity implements View.OnClickL
         AlertDialog alertDialog = imageSavedDialogBuilder.create();
         alertDialog.show();
         AlertDialogsHelper.setButtonTextColor(new int[]{DialogInterface.BUTTON_POSITIVE, DialogInterface.BUTTON_NEGATIVE}, getAccentColor(), alertDialog);
+
     }
 }

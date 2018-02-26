@@ -815,6 +815,7 @@
     <string name="saving_image">Saving...</string>
     <string name="image_saved">Saved!</string>
     <string name="share_image">Share this with others?</string>
+    <string name="saved_image">Image successfully saved.</string>
     <string name="input_hint">input text ...</string>
 
     <string name="no_choose">please choose a image for edit</string>

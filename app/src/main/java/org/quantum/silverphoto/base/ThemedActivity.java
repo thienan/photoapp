@@ -105,7 +105,7 @@ public class ThemedActivity extends BaseActivity {
     @TargetApi(Build.VERSION_CODES.LOLLIPOP)
     public void setRecentApp(String text) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            setTaskDescription(new ActivityManager.TaskDescription(text, getBitmapFromVectorDrawable(getApplicationContext(),R.drawable.ic_launcher_vector), getPrimaryColor()));
+            setTaskDescription(new ActivityManager.TaskDescription(text, getBitmapFromVectorDrawable(getApplicationContext(),R.drawable.ic_launcher_vector_2), getPrimaryColor()));
         }
     }
 
