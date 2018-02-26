@@ -24,7 +24,7 @@ import java.util.List;
 
 /**
  * Text texture processing controls
- * Created by panyi on 2016/6/9.
+ * Created by SilverLive Team on 2016/6/9.
  */
 public class TextStickerView extends View {
     public static final float TEXT_SIZE_DEFAULT = 80;

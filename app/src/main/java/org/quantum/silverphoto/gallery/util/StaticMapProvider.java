@@ -9,7 +9,7 @@ import java.util.Locale;
 // needed for Local.US
 
 /**
- * Created by dnld on 04/09/16.
+ * Created by SilverLive Team on 04/09/16.
  */
 
 public enum StaticMapProvider {

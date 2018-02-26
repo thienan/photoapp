@@ -3,7 +3,7 @@ package org.quantum.silverphoto.editor.utils;
 /**
  * 3x3
  * 
- * @author panyi
+ * @author SilverLive Team
  * 
  */
 public class Matrix3 {

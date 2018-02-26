@@ -18,7 +18,7 @@ import org.quantum.silverphoto.editor.utils.PaintUtil;
 /**
  * Cut Pictures
  * 
- * @author Pan Yi
+ * @author SilverLive Team
  * 
  */
 public class CropImageView extends View {

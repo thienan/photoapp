@@ -16,7 +16,7 @@ import io.realm.RealmResults;
 import static org.quantum.silverphoto.data.local.AccountDatabase.AccountName.TUMBLR;
 
 /**
- * Created by manuja on 22/7/17.
+ * Created by SilverLive Team on 22/7/17.
  */
 
 public class TumblrClient {

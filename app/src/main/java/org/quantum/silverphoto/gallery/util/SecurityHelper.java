@@ -22,7 +22,7 @@ import org.quantum.silverphoto.base.ThemedActivity;
 import com.google.gson.Gson;
 
 /**
- * Created by Jibo on 06/05/2016.
+ * Created by SilverLive Team on 06/05/2016.
  */
 
 public class SecurityHelper {

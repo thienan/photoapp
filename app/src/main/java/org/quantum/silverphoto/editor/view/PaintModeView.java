@@ -10,7 +10,7 @@ import android.util.AttributeSet;
 import android.view.View;
 
 /**
- * Created by panyi on 17/2/11.
+ * Created by SilverLive Team on 17/2/11.
  */
 
 public class PaintModeView extends View {

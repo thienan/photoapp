@@ -25,7 +25,7 @@ import io.realm.Realm;
 import io.realm.RealmQuery;
 
 /**
- * Created by pa1pal on 17/08/17.
+ * Created by SilverLive Team on 17/08/17.
  */
 
 public class UploadHistory extends ThemedActivity {

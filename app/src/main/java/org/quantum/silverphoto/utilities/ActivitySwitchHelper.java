@@ -3,7 +3,7 @@ package org.quantum.silverphoto.utilities;
 import android.content.Context;
 
 /**
- * Created by manuja on 7/6/17.
+ * Created by SilverLive Team on 7/6/17.
  */
 
 public class ActivitySwitchHelper {

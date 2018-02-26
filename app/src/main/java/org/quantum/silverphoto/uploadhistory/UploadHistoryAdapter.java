@@ -31,7 +31,7 @@ import static org.quantum.silverphoto.utilities.ActivitySwitchHelper.context;
 import static org.quantum.silverphoto.utilities.ActivitySwitchHelper.getContext;
 
 /**
- * Created by pa1pal on 17/08/17.
+ * Created by SilverLive Team on 17/08/17.
  */
 
 public class UploadHistoryAdapter extends RecyclerView.Adapter<UploadHistoryAdapter.ViewHolder> {

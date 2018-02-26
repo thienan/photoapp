@@ -7,7 +7,7 @@ import org.quantum.silverphoto.gallery.data.Album;
 import org.quantum.silverphoto.gallery.data.HandlingAlbums;
 
 /**
- * Created by dnld on 03/08/16.
+ * Created by SilverLive Team on 03/08/16.
  */
 
 public class SharedMediaActivity extends ThemedActivity {

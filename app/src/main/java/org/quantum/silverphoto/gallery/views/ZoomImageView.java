@@ -7,7 +7,7 @@ import android.view.animation.DecelerateInterpolator;
 import android.widget.Scroller;
 
 /**
- * Created by dnld on 20/09/16.
+ * Created by SilverLive Team on 20/09/16.
  */
 
 public class ZoomImageView {

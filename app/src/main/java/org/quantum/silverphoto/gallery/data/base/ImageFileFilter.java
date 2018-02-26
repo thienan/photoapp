@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 
 /**
- * Created by dnld on 24/04/16.
+ * Created by SilverLive Team on 24/04/16.
  */
 public class ImageFileFilter implements FilenameFilter {
 

@@ -94,7 +94,7 @@ import static org.quantum.silverphoto.utilities.Constants.SUCCESS;
 import static org.quantum.silverphoto.utilities.Utils.checkNetwork;
 
 /**
- * Created by pa1pal on 13/6/17.
+ * Created by SilverLive Team on 13/6/17.
  */
 
 public class AccountActivity extends ThemedActivity implements AccountContract.View,

@@ -11,9 +11,9 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 /**
- * 文件相关辅助类
+ *
  * 
- * @author panyi
+ * @author SilverLive Team
  * 
  */
 public class FileUtils {

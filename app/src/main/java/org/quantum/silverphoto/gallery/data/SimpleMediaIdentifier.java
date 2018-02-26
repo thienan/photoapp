@@ -1,7 +1,7 @@
 package org.quantum.silverphoto.gallery.data;
 
 /**
- * Created by brand on 8/12/2016.
+ * Created by SilverLive Team on 8/12/2016.
  */
 public class SimpleMediaIdentifier {
 

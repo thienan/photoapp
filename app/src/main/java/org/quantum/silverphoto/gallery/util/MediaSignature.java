@@ -5,7 +5,7 @@ import com.bumptech.glide.signature.StringSignature;
 import org.quantum.silverphoto.gallery.data.Media;
 
 /**
- * Created by dnld on 21/08/16.
+ * Created by SilverLive Team on 21/08/16.
  */
 
 public class MediaSignature extends StringSignature {

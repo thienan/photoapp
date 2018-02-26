@@ -10,7 +10,7 @@ import android.support.v8.renderscript.ScriptIntrinsicBlur;
 import android.view.View;
 
 /**
- * Created by mayank on 3/11/17.
+ * Created by SilverLive Team on 3/11/17.
  */
 
 public class BlurImageUtil {

@@ -15,7 +15,7 @@ import android.view.View;
 import org.quantum.silverphoto.editor.view.imagezoom.ImageViewTouch;
 
 /**
- * Created by panyi on 17/2/11.
+ * Created by SilverLive Team on 17/2/11.
  */
 
 public class CustomPaintView extends View {

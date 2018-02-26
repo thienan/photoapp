@@ -13,7 +13,7 @@ import java.io.IOException;
 /**
  * Documents related auxiliary class
  * 
- * @author panyi
+ * @author SilverLive Team
  * 
  */
 public class FileUtils {

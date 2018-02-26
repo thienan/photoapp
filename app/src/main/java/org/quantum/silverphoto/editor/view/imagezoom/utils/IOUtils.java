@@ -12,7 +12,7 @@ import java.io.Closeable;
 /**
  * Various I/O utilities
  * 
- * @author alessandro
+ * @author SilverLive Team
  * 
  */
 public class IOUtils {

@@ -42,7 +42,7 @@ import android.text.TextUtils;
 import io.realm.Realm;
 
 /**
- * Created by dnld on 26/04/16.
+ * Created by SilverLive Team on 26/04/16.
  */
 
 public class Media implements Parcelable, Serializable {

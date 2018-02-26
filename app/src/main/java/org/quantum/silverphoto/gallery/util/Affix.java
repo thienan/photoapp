@@ -14,7 +14,7 @@ import java.io.OutputStream;
 import java.util.ArrayList;
 
 /**
- * Created by Jibo on 09/05/2016.
+ * Created by SilverLive Team on 09/05/2016.
  */
 public class Affix {
 

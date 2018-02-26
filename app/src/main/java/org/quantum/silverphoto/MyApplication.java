@@ -27,7 +27,7 @@ import io.realm.Realm;
 import io.realm.RealmConfiguration;
 
 /**
- * Created by dnld on 28/04/16.
+ * Created by SilverLive Team on 28/04/16.
  */
 
 public class MyApplication extends Application {

@@ -21,7 +21,7 @@ import org.quantum.silverphoto.editor.view.imagezoom.utils.IDisposable;
 /**
  * Base View to manage image zoom/scrool/pinch operations
  * 
- * @author alessandro
+ * @author SilverLive Team
  * 
  */
 public abstract class ImageViewTouchBase extends ImageView implements
@@ -55,7 +55,7 @@ public abstract class ImageViewTouchBase extends ImageView implements
 	 * Use this to change the
 	 * {@link ImageViewTouchBase#setDisplayType(DisplayType)} of this View
 	 * 
-	 * @author alessandro
+	 * @author SilverLive Team
 	 * 
 	 */
 	public enum DisplayType {

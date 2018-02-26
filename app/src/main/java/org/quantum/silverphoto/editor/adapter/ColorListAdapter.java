@@ -10,7 +10,7 @@ import org.quantum.silverphoto.editor.fragment.PaintFragment;
 
 /**
  * Color list Adapter
- * @author panyi
+ * @author SilverLive Team
  */
 public class ColorListAdapter extends RecyclerView.Adapter<ViewHolder> {
     public static final int TYPE_COLOR = 1;

@@ -3,7 +3,7 @@ package org.quantum.silverphoto.data.local;
 import io.realm.RealmObject;
 
 /**
- * Created by pa1pal on 16/08/17.
+ * Created by SilverLive Team on 16/08/17.
  */
 
 public class UploadHistoryRealmModel extends RealmObject{

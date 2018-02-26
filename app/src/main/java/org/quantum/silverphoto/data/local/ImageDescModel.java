@@ -4,7 +4,7 @@ import io.realm.RealmObject;
 import io.realm.annotations.PrimaryKey;
 
 /**
- * Created by nirvan on 20/6/17.
+ * Created by SilverLive Team on 20/6/17.
  */
 
 public class ImageDescModel extends RealmObject {

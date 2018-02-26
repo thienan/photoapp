@@ -14,8 +14,8 @@ import android.widget.TextView;
 import org.quantum.silverphoto.R;
 
 /**
- * 颜色选择器
- * Created by panyi on 2016/6/9.
+ *
+ * Created by SilverLive Team on 2016/6/9.
  */
 public class ColorPicker extends Dialog implements SeekBar.OnSeekBarChangeListener {
     private static final String COLOR_STRING_FORMAT = "#%02x%02x%02x";

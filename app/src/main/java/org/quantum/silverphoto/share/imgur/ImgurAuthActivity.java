@@ -23,7 +23,7 @@ import butterknife.ButterKnife;
 import static org.quantum.silverphoto.utilities.Constants.IMGUR_LOGIN_URL;
 
 /**
- * Created by manuja on 16/7/17.
+ * Created by SilverLive Team on 16/7/17.
  */
 
 public class ImgurAuthActivity extends ThemedActivity {

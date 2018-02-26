@@ -10,7 +10,7 @@ import org.quantum.silverphoto.R;
 import org.quantum.silverphoto.gallery.util.ThemeHelper;
 
 /**
- * Created by pa1pal on 16/7/17.
+ * Created by SilverLive Team on 16/7/17.
  */
 
 public class SnackBarHandler  {

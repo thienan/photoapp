@@ -8,7 +8,7 @@ import android.text.TextUtils;
 import java.io.File;
 
 /**
- * Created by panyi on 16/10/23.
+ * Created by SilverLive Team on 16/10/23.
  */
 public class FileUtil {
     public static boolean checkFileExist(final String path) {

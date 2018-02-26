@@ -5,9 +5,9 @@ import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
 
 /**
- * 禁用ViewPager滑动事件
+ *
  * 
- * @author panyi
+ * @author SilverLive Team
  * 
  */
 public class CustomViewPager extends ViewPager {

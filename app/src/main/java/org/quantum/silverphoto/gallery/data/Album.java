@@ -29,7 +29,7 @@ import java.util.Date;
 import static org.quantum.silverphoto.gallery.data.base.FilterMode.ALL;
 
 /**
- * Created by dnld on 26/04/16.
+ * Created by SilverLive Team on 26/04/16.
  */
 public class Album implements Serializable {
 

@@ -13,7 +13,7 @@ import org.quantum.silverphoto.editor.EditImageActivity;
 import org.quantum.silverphoto.editor.utils.Matrix3;
 
 /**
- * Created by panyi on 2016/8/14.
+ * Created by SilverLive Team on 2016/8/14.
  * Abstract texture compositing tasks
  */
 public abstract class StickerTask extends AsyncTask<Bitmap, Void, Bitmap> {

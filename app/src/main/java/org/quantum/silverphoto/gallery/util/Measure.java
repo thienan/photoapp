@@ -8,7 +8,7 @@ import android.view.Display;
 import android.view.WindowManager;
 
 /**
- * Created by dnld on 11/03/16.
+ * Created by SilverLive Team on 11/03/16.
  */
 
 public class Measure {

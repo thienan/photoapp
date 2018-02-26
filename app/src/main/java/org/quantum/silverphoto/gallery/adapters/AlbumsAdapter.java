@@ -38,7 +38,7 @@ import java.util.ArrayList;
 import static com.facebook.FacebookSdk.getApplicationContext;
 
 /**
- * Created by dnld on 1/7/16.
+ * Created by SilverLive Team on 1/7/16.
  */
 public class AlbumsAdapter extends RecyclerView.Adapter<AlbumsAdapter.ViewHolder> {
 

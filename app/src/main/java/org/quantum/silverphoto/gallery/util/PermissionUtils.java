@@ -9,7 +9,7 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 
 /**
- * Created by dnld on 01/04/16.
+ * Created by SilverLive Team on 01/04/16.
  */
 public final class PermissionUtils {
 

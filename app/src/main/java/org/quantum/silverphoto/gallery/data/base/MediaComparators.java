@@ -6,7 +6,7 @@ import org.quantum.silverphoto.gallery.util.NumericComparator;
 import java.util.Comparator;
 
 /**
- * Created by dnld on 26/04/16.
+ * Created by SilverLive Team on 26/04/16.
  */
 
 public class MediaComparators {

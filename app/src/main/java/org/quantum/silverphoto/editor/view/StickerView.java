@@ -13,9 +13,9 @@ import android.view.View;
 import java.util.LinkedHashMap;
 
 /**
- * 贴图操作控件
  *
- * @author panyi
+ *
+ * @author SilverLive Team
  */
 public class StickerView extends View {
     private static int STATUS_IDLE = 0;

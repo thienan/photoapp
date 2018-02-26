@@ -106,7 +106,7 @@ import static org.quantum.silverphoto.utilities.Utils.promptSpeechInput;
 
 
 /**
- * Created by dnld on 18/02/16.
+ * Created by SilverLive Team on 18/02/16.
  */
 @SuppressWarnings("ResourceAsColor")
 public class SingleMediaActivity extends SharedMediaActivity implements ImageAdapter.OnSingleTap, ImageAdapter.enterTransition{

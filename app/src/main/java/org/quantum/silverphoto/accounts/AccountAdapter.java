@@ -24,7 +24,7 @@ import static org.quantum.silverphoto.utilities.ActivitySwitchHelper.context;
 import static org.quantum.silverphoto.utilities.ActivitySwitchHelper.getContext;
 
 /**
- * Created by pa1pal on 7/7/17.
+ * Created by SilverLive Team on 7/7/17.
  */
 
 public class AccountAdapter extends RecyclerView.Adapter<AccountAdapter.ViewHolder> {

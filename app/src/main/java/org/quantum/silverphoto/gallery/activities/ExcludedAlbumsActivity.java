@@ -24,7 +24,7 @@ import java.io.File;
 import java.util.ArrayList;
 
 /**
- * Created by Jibo on 04/04/2016.
+ * Created by SilverLive Team on 04/04/2016.
  */
 public class ExcludedAlbumsActivity extends ThemedActivity {
 

@@ -11,7 +11,7 @@ import com.bumptech.glide.load.engine.cache.LruResourceCache;
 import com.bumptech.glide.load.engine.cache.MemorySizeCalculator;
 
 /**
- * Created by dnld on 10/03/16.
+ * Created by SilverLive Team on 10/03/16.
  */
 public class CustomGlideModule implements com.bumptech.glide.module.GlideModule {
     @Override

@@ -11,7 +11,7 @@ import android.support.v4.app.NotificationCompat.Builder;
 import org.quantum.silverphoto.R;
 
 /**
- * Created by anant on 23/7/17.
+ * Created by SilverLive Team on 23/7/17.
  */
 
 public class NotificationHandler {

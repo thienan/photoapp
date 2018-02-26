@@ -33,7 +33,7 @@ import static org.quantum.silverphoto.utilities.ActivitySwitchHelper.context;
 import static org.quantum.silverphoto.utilities.ActivitySwitchHelper.getContext;
 
 /**
- * Created by Mohit on 24/07/17.
+ * Created by SilverLive Team on 24/07/17.
  */
 
 public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ViewHolder> {

@@ -9,7 +9,7 @@ import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 
 /**
- * Created by pa1pal on 12/6/17.
+ * Created by SilverLive Team on 12/6/17.
  */
 
 public class SilverPhotoProgressBarHandler {

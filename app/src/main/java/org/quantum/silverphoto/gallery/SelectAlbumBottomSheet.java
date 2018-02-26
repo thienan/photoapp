@@ -1,7 +1,7 @@
 package org.quantum.silverphoto.gallery;
 
 /**
- * Created by Jibo on 18/04/2016.
+ * Created by SilverLive Team on 18/04/2016.
  */
 
 import android.app.Dialog;

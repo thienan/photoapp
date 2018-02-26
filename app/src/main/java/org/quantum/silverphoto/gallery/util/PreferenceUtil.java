@@ -5,7 +5,7 @@ import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
 /**
- * Created by dnld on 31/07/16.
+ * Created by SilverLive Team on 31/07/16.
  */
 
 public class PreferenceUtil {

@@ -8,7 +8,7 @@ import android.support.v4.graphics.ColorUtils;
 import org.quantum.silverphoto.R;
 
 /**
- * Created by dnld on 24/02/16.
+ * Created by SilverLive Team on 24/02/16.
  */
 public class ColorPalette {
 

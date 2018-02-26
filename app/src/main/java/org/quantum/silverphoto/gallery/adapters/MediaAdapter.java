@@ -29,7 +29,7 @@ import io.realm.Realm;
 
 
 /**
- * Created by dnld on 1/7/16.
+ * Created by SilverLive Team on 1/7/16.
  */
 
 public class MediaAdapter extends RecyclerView.Adapter<MediaAdapter.ViewHolder> {

@@ -10,7 +10,7 @@ import org.quantum.silverphoto.gallery.data.base.SortingOrder;
 import java.io.Serializable;
 
 /**
- * Created by dnld on 2/4/16.
+ * Created by SilverLive Team on 2/4/16.
  */
 public class AlbumSettings implements Serializable {
 

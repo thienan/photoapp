@@ -8,7 +8,7 @@ import org.quantum.silverphoto.data.local.AccountDatabase;
 import io.realm.RealmQuery;
 
 /**
- * Created by pa1pal on 6/6/17.
+ * Created by SilverLive Team on 6/6/17.
  *
  * Contract class have two interfaces one for View and one for Presenter. We here declare all the
  * required functions.

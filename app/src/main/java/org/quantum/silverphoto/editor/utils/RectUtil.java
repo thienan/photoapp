@@ -6,7 +6,7 @@ import android.graphics.RectF;
 import org.quantum.silverphoto.editor.view.TextStickerView;
 
 /**
- * Created by panyi on 2016/6/16.
+ * Created by SilverLive Team on 2016/6/16.
  */
 public class RectUtil {
     /**

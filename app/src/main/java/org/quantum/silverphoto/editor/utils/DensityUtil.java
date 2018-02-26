@@ -3,7 +3,7 @@ package org.quantum.silverphoto.editor.utils;
 import android.content.Context;
 
 /**
- * Created by panyi on 17/2/11.
+ * Created by SilverLive Team on 17/2/11.
  */
 
 public class DensityUtil {

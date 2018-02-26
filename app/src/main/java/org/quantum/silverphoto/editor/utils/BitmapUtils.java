@@ -42,7 +42,7 @@ import java.io.OutputStream;
 /**
  * BitmapUtils
  *
- * @author panyi
+ * @author SilverLive Team
  */
 public class BitmapUtils {
     /**

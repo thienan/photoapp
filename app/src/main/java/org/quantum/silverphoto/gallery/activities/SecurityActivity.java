@@ -45,7 +45,7 @@ import org.quantum.silverphoto.utilities.ActivitySwitchHelper;
 import org.quantum.silverphoto.utilities.SnackBarHandler;
 
 /**
- * Created by dnld on 22/05/16.
+ * Created by SilverLive Team on 22/05/16.
  */
 public class SecurityActivity extends ThemedActivity {
 

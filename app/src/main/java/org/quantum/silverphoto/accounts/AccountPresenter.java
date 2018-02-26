@@ -10,7 +10,7 @@ import io.realm.RealmQuery;
 import io.realm.RealmResults;
 
 /**
- * Created by pa1pal on 10/6/17.
+ * Created by SilverLive Team on 10/6/17.
  */
 
 public class AccountPresenter extends BasePresenter<AccountContract.View>

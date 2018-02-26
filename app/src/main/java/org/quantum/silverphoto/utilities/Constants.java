@@ -2,7 +2,7 @@ package org.quantum.silverphoto.utilities;
 
 
 /**
- * Created by manuja on 14/5/17.
+ * Created by SilverLive Team on 14/5/17.
  */
 
 public class Constants {

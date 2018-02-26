@@ -38,7 +38,7 @@ import static org.quantum.silverphoto.utilities.Constants.PACKAGE_SNAPCHAT;
 import static org.quantum.silverphoto.utilities.Constants.PACKAGE_WHATSAPP;
 
 /**
- * Created by pa1pal on 23/5/17.
+ * Created by SilverLive Team on 23/5/17.
  */
 
 public class Utils {

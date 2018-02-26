@@ -31,7 +31,7 @@ import java.lang.reflect.Field;
 import java.util.Locale;
 
 /**
- * Created by dnld on 19/05/16.
+ * Created by SilverLive Team on 19/05/16.
  */
 public class AlertDialogsHelper {
 

@@ -30,7 +30,7 @@ import org.quantum.silverphoto.gallery.util.ThemeHelper;
 import java.util.ArrayList;
 
 /**
- * Created by dnld on 23/02/16.
+ * Created by SilverLive Team on 23/02/16.
  */
 public class ThemedActivity extends BaseActivity {
 

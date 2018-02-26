@@ -25,7 +25,7 @@ import de.psdev.licensesdialog.model.Notice;
 import de.psdev.licensesdialog.model.Notices;
 
 /**
- * Created by Jibo on 02/03/2016.
+ * Created by SilverLive Team on 02/03/2016.
  */
 public class AboutActivity extends ThemedActivity {
 

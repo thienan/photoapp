@@ -7,7 +7,7 @@ import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
 
 /**
- * Created by mohit on 19/8/17.
+ * Created by SilverLive Team on 19/8/17.
  */
 
 public class PagerRecyclerView extends RecyclerView {

@@ -57,7 +57,7 @@ import uz.shift.colorpicker.OnColorChangedListener;
 import static android.preference.PreferenceManager.getDefaultSharedPreferences;
 
 /**
- * Created by Jibo on 02/03/2016.
+ * Created by SilverLive Team on 02/03/2016.
  */
 @SuppressWarnings("ResourceAsColor")
 public class SettingsActivity extends ThemedActivity {

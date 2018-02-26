@@ -17,7 +17,7 @@ import org.quantum.silverphoto.editor.utils.RectUtil;
 
 
 /**
- * @author panyi
+ * @author SilverLive Team
  */
 public class StickerItem {
     private static final float MIN_SCALE = 0.15f;
